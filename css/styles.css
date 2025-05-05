@@ -573,12 +573,6 @@ progress {
   height: auto;
 }
 
-#submitButton:disabled {
-  background-color: #999999 !important;
-  color: #ffffff;
-  border-color: #999999 !important;
-}
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -2982,8 +2976,9 @@ textarea.form-control-lg {
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #6c757d;
+  /* border-color: #f4623a; */
+  border-color: #6c757d;
 }
 
 .btn-secondary {
