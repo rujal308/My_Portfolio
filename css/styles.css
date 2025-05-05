@@ -48,6 +48,26 @@
   border-color: #000000 !important;
 }
 
+/* Social media icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: #555;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #007bff;
+  transform: scale(1.2);
+}
+
+
 
 
 *,
