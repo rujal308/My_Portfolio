@@ -573,6 +573,12 @@ progress {
   height: auto;
 }
 
+#submitButton:disabled {
+  background-color: #999999 !important;
+  color: #ffffff;
+  border-color: #999999 !important;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
