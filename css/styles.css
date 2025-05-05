@@ -208,7 +208,8 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  /* color: #f4623a; */
+  color: #454444;
   text-decoration: underline;
 }
 a:hover {
@@ -2951,7 +2952,7 @@ textarea.form-control-lg {
 .btn-primary {
   color: #fff;
   background-color: #454444;
-  /* border-color: #f4623a; */ border-color: #454444;;
+  /* border-color: #f4623a; */ border-color: #454444;
 }
 .btn-primary:hover {
   color: #fff;
@@ -7335,7 +7336,8 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #f4623a !important;
+  /* color: #f4623a !important; */
+  color: #454444 !important;
 }
 
 .text-secondary {
@@ -7391,7 +7393,8 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  /* background-color: #f4623a !important; */
+  background-color: #454444 !important;
 }
 
 .bg-secondary {
@@ -10866,7 +10869,8 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  /* background-color: #f4623a; */
+  background-color: #454444;
   opacity: 1;
 }
 
