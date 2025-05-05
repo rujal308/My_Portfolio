@@ -288,15 +288,21 @@ caption {
 }
 
 /* Header background and spacing */
-.custom-hero {
-  background: linear-gradient(to bottom right, #3c2f2f, #5C4D42);
+.custom-hero-with-image {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("assets/img/your-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 10rem;
   padding-bottom: 6rem;
   position: relative;
   overflow: hidden;
 }
 
-/* Profile image */
 .profile-img {
   width: 140px;
   height: 140px;
@@ -312,7 +318,6 @@ caption {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
 }
 
-/* Divider */
 .divider {
   width: 80px;
   height: 4px;
@@ -321,7 +326,6 @@ caption {
   margin: 1.5rem auto;
 }
 
-/* Subtle fade-in animation */
 .fade-in {
   opacity: 0;
   animation: fadeIn 1.2s ease-in-out forwards;
@@ -332,6 +336,7 @@ caption {
     opacity: 1;
   }
 }
+
 
 
 th {
