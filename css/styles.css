@@ -287,6 +287,53 @@ caption {
   text-align: left;
 }
 
+/* Header background and spacing */
+.custom-hero {
+  background: linear-gradient(to bottom right, #3c2f2f, #5C4D42);
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Profile image */
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Divider */
+.divider {
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+  margin: 1.5rem auto;
+}
+
+/* Subtle fade-in animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
