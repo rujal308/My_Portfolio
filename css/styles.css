@@ -186,6 +186,49 @@ body {
   font-weight: 600;
 }
 
+/*At your service section*/
+#services {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+
+#services h2 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#services .divider {
+  width: 60px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 0 auto 20px auto;
+  border: none;
+}
+
+#services .mt-5 {
+  margin-top: 20px !important;
+}
+
+#services .text-muted {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+#services .fs-1 {
+  font-size: 2rem;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  #services .col-md-6 {
+      margin-bottom: 30px;
+  }
+}
+
 
 /* Social media icons */
 .social-icons {
