@@ -187,45 +187,69 @@ body {
 }
 
 /*At your service section*/
+/* Service Section Styling */
 #services {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #ffffff;
+  padding: 60px 0;
+  background-color: #f9f9f9;
 }
 
 #services h2 {
-  margin-bottom: 10px;
-  font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 #services .divider {
   width: 60px;
-  height: 3px;
+  height: 4px;
   background-color: #0d6efd;
-  margin: 0 auto 20px auto;
+  margin: 1rem auto 2rem auto;
   border: none;
 }
 
-#services .mt-5 {
-  margin-top: 20px !important;
+#services .row > div {
+  margin-bottom: 40px;
 }
 
-#services .text-muted {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 0;
+#services .text-center .mt-4 {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#services .fs-1 {
-  font-size: 2rem;
+#services .text-center .mt-4:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+#services i {
   color: #0d6efd;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#services i:hover {
+  transform: scale(1.2);
+  color: #0b5ed7;
+}
+
+#services h3 {
+  font-weight: 600;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 
+#services p {
+  color: #6c757d;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Responsive Fix */
 @media (max-width: 768px) {
-  #services .col-md-6 {
-      margin-bottom: 30px;
+  #services .text-center .mt-4 {
+    padding: 20px 15px;
   }
 }
 
