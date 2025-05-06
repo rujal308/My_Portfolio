@@ -253,6 +253,77 @@ body {
   }
 }
 
+/* masthead */
+/* Custom Header Styles */
+.masthead {
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Light background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+.profile-img-container {
+  max-width: 200px;
+  margin: 0 auto;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.profile-img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1, .lead {
+  color: #333; /* Dark text color */
+}
+
+.custom-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.divider {
+  border-top: 2px solid #333;
+  width: 60px;
+  margin: 20px auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .masthead {
+      min-height: auto;
+      padding: 50px 0;
+  }
+
+  .profile-img-container {
+      max-width: 150px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  .lead {
+      font-size: 1rem;
+  }
+}
+
+
 
 /* Social media icons */
 .social-icons {
