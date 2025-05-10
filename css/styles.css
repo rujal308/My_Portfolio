@@ -142,7 +142,7 @@ body {
 /*Skills & Tools section*/
 .skills-section {
   padding: 60px 20px;
-  background-color: #f7f3f3;
+  background-color: white;
   text-align: center;
 }
 
@@ -190,7 +190,7 @@ body {
 /* Service Section Styling */
 #services {
   padding: 60px 0;
-  background-color: #f2f2f2;
+  background-color: #f8f9fa;
 }
 
 #services h2 {
@@ -11218,7 +11218,8 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: 3c2f2f;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
