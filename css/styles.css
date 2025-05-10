@@ -48,6 +48,18 @@
   border-color: #000000 !important;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.95); /* subtle white background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);     /* adds depth */
+  backdrop-filter: blur(6px);                  /* modern effect for slight blur */
+  transition: background-color 0.3s ease-in-out;
+}
+
+
 /*Services section*/
 body {
   background-color: #f8f9fa;
@@ -11218,8 +11230,7 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    /* background-color: #fff; */
-    background-color: 3c2f2f;
+    background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
